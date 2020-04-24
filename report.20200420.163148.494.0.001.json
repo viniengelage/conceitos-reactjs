@@ -1,0 +1,426 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200420.163148.494.0.001.json",
+    "dumpEventTime": "2020-04-20T16:31:48Z",
+    "dumpEventTimeStamp": "1587411108185",
+    "processId": 494,
+    "threadId": null,
+    "cwd": "/mnt/c/Users/Vinicios Engelage/Desktop/Projetos/Bootcamp/conceitos/conceitos-reactjs",
+    "commandLine": [
+      "/home/viniengelage/.nvm/versions/node/v12.16.2/bin/node",
+      "/mnt/c/Users/Vinicios Engelage/Desktop/Projetos/Bootcamp/conceitos/conceitos-reactjs/node_modules/react-scripts/scripts/test.js",
+      "--watchAll=false"
+    ],
+    "nodejsVersion": "v12.16.2",
+    "glibcVersionRuntime": "2.27",
+    "glibcVersionCompiler": "2.17",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "node": "12.16.2",
+      "v8": "7.8.279.23-node.34",
+      "uv": "1.34.2",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1e",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.2/node-v12.16.2-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.2/node-v12.16.2.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "4.4.0-19041-Microsoft",
+    "osVersion": "#1-Microsoft Fri Dec 06 14:06:00 PST 2019",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD A12-9720P RADEON R7, 12 COMPUTE CORES 4C+8G",
+        "speed": 2700,
+        "user": 6622500,
+        "nice": 0,
+        "sys": 4248900,
+        "idle": 4762000,
+        "irq": 379300
+      },
+      {
+        "model": "AMD A12-9720P RADEON R7, 12 COMPUTE CORES 4C+8G",
+        "speed": 2700,
+        "user": 7879600,
+        "nice": 0,
+        "sys": 2894800,
+        "idle": 4858900,
+        "irq": 79500
+      },
+      {
+        "model": "AMD A12-9720P RADEON R7, 12 COMPUTE CORES 4C+8G",
+        "speed": 2700,
+        "user": 8601500,
+        "nice": 0,
+        "sys": 2496500,
+        "idle": 4535300,
+        "irq": 56200
+      },
+      {
+        "model": "AMD A12-9720P RADEON R7, 12 COMPUTE CORES 4C+8G",
+        "speed": 2700,
+        "user": 9067100,
+        "nice": 0,
+        "sys": 2276200,
+        "idle": 4290000,
+        "irq": 88500
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wifi0",
+        "internal": false,
+        "mac": "5c:c9:d3:c3:dc:1d",
+        "address": "192.168.0.108",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "wifi0",
+        "internal": false,
+        "mac": "5c:c9:d3:c3:dc:1d",
+        "address": "2804:2584:aaa2:183:5d2e:a917:7445:e417",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wifi0",
+        "internal": false,
+        "mac": "5c:c9:d3:c3:dc:1d",
+        "address": "2804:2584:aaa2:183:7448:7a82:c4fd:d157",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wifi0",
+        "internal": false,
+        "mac": "5c:c9:d3:c3:dc:1d",
+        "address": "fe80::5d2e:a917:7445:e417",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 11
+      }
+    ],
+    "host": "VINICIOS"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x0000000000b40285",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::string const&, v8::Local<v8::String>) [/home/viniengelage/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000a033ef",
+      "symbol": "node::OnFatalError(char const*, char const*) [/home/viniengelage/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b76ffe",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/home/viniengelage/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b77379",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/home/viniengelage/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d23ad5",
+      "symbol": " [/home/viniengelage/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d24166",
+      "symbol": "v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [/home/viniengelage/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d309e5",
+      "symbol": "v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/home/viniengelage/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d31895",
+      "symbol": "v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/home/viniengelage/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d3434c",
+      "symbol": "v8::internal::Heap::AllocateRawWithRetryOrFail(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/home/viniengelage/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cfaf1b",
+      "symbol": "v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationType, v8::internal::AllocationOrigin) [/home/viniengelage/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x000000000103d85e",
+      "symbol": "v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [/home/viniengelage/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x00000000013c03d9",
+      "symbol": " [/home/viniengelage/.nvm/versions/node/v12.16.2/bin/node]"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2153512960,
+    "totalCommittedMemory": 2149725264,
+    "usedMemory": 2143899112,
+    "availableMemory": 48675072,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 33088,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 4194304,
+        "committedMemory": 1095096,
+        "capacity": 2094912,
+        "used": 43312,
+        "available": 2051600
+      },
+      "old_space": {
+        "memorySize": 2107777024,
+        "committedMemory": 2107471072,
+        "capacity": 2104338496,
+        "used": 2104112272,
+        "available": 226224
+      },
+      "code_space": {
+        "memorySize": 1216512,
+        "committedMemory": 1063328,
+        "capacity": 900384,
+        "used": 900384,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 2625536,
+        "committedMemory": 2625240,
+        "capacity": 1439600,
+        "used": 1439600,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 37388288,
+        "committedMemory": 37388288,
+        "capacity": 37367952,
+        "used": 37367952,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 2094912,
+        "used": 0,
+        "available": 2094912
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 1161.09,
+    "kernelCpuSeconds": 77.4688,
+    "cpuConsumptionPercent": 85.0077,
+    "maxRss": 2304397312,
+    "pageFaults": {
+      "IORequired": 0,
+      "IONotRequired": 1266453
+    },
+    "fsActivity": {
+      "reads": 0,
+      "writes": 0
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 904.438,
+    "kernelCpuSeconds": 52.6562,
+    "cpuConsumptionPercent": 65.6893,
+    "fsActivity": {
+      "reads": 0,
+      "writes": 0
+    }
+  },
+  "libuv": [
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "SPACESHIP_ROOT": "/home/viniengelage/.oh-my-zsh/custom/themes/spaceship-prompt",
+    "USER": "viniengelage",
+    "npm_package_devDependencies__testing_library_jest_dom": "^5.3.0",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_user_agent": "yarn/1.22.0 npm/? node/v12.16.2 linux x64",
+    "npm_package_devDependencies__testing_library_user_event": "^7.1.2",
+    "npm_config_bin_links": "true",
+    "npm_node_execpath": "/home/viniengelage/.nvm/versions/node/v12.16.2/bin/node",
+    "npm_config_init_version": "1.0.0",
+    "SHLVL": "1",
+    "HOME": "/home/viniengelage",
+    "OLDPWD": "/mnt/c/Users/Vinicios Engelage/Desktop/Projetos/Bootcamp/conceitos",
+    "LESS": "-R",
+    "npm_package_browserslist_production_0": ">0.2%",
+    "NVM_BIN": "/home/viniengelage/.nvm/versions/node/v12.16.2/bin",
+    "npm_package_browserslist_production_1": "not dead",
+    "ZSH": "/home/viniengelage/.oh-my-zsh",
+    "LSCOLORS": "Gxfxcxdxbxegedabagacad",
+    "NVM_INC": "/home/viniengelage/.nvm/versions/node/v12.16.2/include/node",
+    "npm_package_browserslist_production_2": "not op_mini all",
+    "npm_package_dependencies_axios_mock_adapter": "^1.18.1",
+    "npm_config_init_license": "MIT",
+    "PAGER": "less",
+    "YARN_WRAP_OUTPUT": "false",
+    "npm_config_version_tag_prefix": "v",
+    "WSL_DISTRO_NAME": "Ubuntu-18.04",
+    "npm_package_dependencies_react_scripts": "3.4.1",
+    "ZPFX": "/home/viniengelage/.zinit/polaris",
+    "NVM_DIR": "/home/viniengelage/.nvm",
+    "LOGNAME": "viniengelage",
+    "NAME": "VINICIOS",
+    "_": "/mnt/c/Program Files (x86)/Yarn/bin//yarn",
+    "npm_package_private": "true",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "TERM": "xterm-256color",
+    "npm_package_scripts_start": "react-scripts start",
+    "npm_config_ignore_scripts": "",
+    "ZSH_CACHE_DIR": "/home/viniengelage/.oh-my-zsh/cache",
+    "PMSPEC": "0uUpiPsf",
+    "npm_package_browserslist_development_0": "last 1 chrome version",
+    "npm_package_dependencies_axios": "^0.19.2",
+    "PATH": "/tmp/yarn--1587409650223-0.003470992932468109:/mnt/c/Users/Vinicios Engelage/Desktop/Projetos/Bootcamp/conceitos/conceitos-reactjs/node_modules/.bin:/home/viniengelage/.config/yarn/link/node_modules/.bin:/home/viniengelage/.yarn/bin:/home/viniengelage/.nvm/versions/node/v12.16.2/libexec/lib/node_modules/npm/bin/node-gyp-bin:/home/viniengelage/.nvm/versions/node/v12.16.2/lib/node_modules/npm/bin/node-gyp-bin:/home/viniengelage/.nvm/versions/node/v12.16.2/bin/node_modules/npm/bin/node-gyp-bin:/home/viniengelage/.nvm/versions/node/v12.16.2/bin:/home/viniengelage/.zinit/polaris/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu18.04onWindows_2020.1804.7.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Java/jdk1.8.0_241/bin:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Users/Vinicios Engelage/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Vinicios Engelage/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Vinicios Engelage/AppData/Roaming/npm:/mnt/c/Users/Vinicios Engelage/AppData/Local/Yarn/bin:/mnt/c/Users/Vinicios Engelage/AppData/Local/hyper/app-3.0.2/resources/bin:/snap/bin",
+    "NODE": "/home/viniengelage/.nvm/versions/node/v12.16.2/bin/node",
+    "npm_package_browserslist_development_1": "last 1 firefox version",
+    "npm_package_name": "frontend",
+    "npm_package_browserslist_development_2": "last 1 safari version",
+    "npm_package_scripts_eject": "react-scripts eject",
+    "LANG": "C.UTF-8",
+    "npm_package_dependencies_react_dom": "^16.13.1",
+    "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
+    "npm_lifecycle_script": "react-scripts test --watchAll=false",
+    "npm_package_scripts_test": "react-scripts test --watchAll=false",
+    "npm_config_version_git_message": "v%s",
+    "SHELL": "/bin/bash",
+    "npm_lifecycle_event": "test",
+    "npm_package_devDependencies__testing_library_react": "^10.0.2",
+    "npm_package_version": "0.1.0",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"test\"],\"original\":[\"test\"]}",
+    "npm_package_scripts_build": "react-scripts build",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_git_sign": "",
+    "npm_config_strict_ssl": "true",
+    "SPACESHIP_VERSION": "3.11.2",
+    "PWD": "/mnt/c/Users/Vinicios Engelage/Desktop/Projetos/Bootcamp/conceitos/conceitos-reactjs",
+    "npm_execpath": "/mnt/c/Program Files (x86)/Yarn/bin/yarn.js",
+    "XDG_DATA_DIRS": "/usr/local/share:/usr/share:/var/lib/snapd/desktop",
+    "NVM_CD_FLAGS": "-q",
+    "npm_config_save_prefix": "^",
+    "npm_config_ignore_optional": "",
+    "HOSTTYPE": "x86_64",
+    "INIT_CWD": "/mnt/c/Users/Vinicios Engelage/Desktop/Projetos/Bootcamp/conceitos/conceitos-reactjs",
+    "WSLENV": "",
+    "npm_package_dependencies_react": "^16.13.1",
+    "BABEL_ENV": "test",
+    "NODE_ENV": "test",
+    "PUBLIC_URL": "",
+    "NODE_PATH": "",
+    "JEST_WORKER_ID": "1"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 65536,
+      "hard": 65536
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 65536,
+      "hard": 65536
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": 8388608
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 7823,
+      "hard": 7823
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "linux-vdso.so.1",
+    "/lib/x86_64-linux-gnu/libdl.so.2",
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+    "/lib/x86_64-linux-gnu/libm.so.6",
+    "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+    "/lib/x86_64-linux-gnu/libpthread.so.0",
+    "/lib/x86_64-linux-gnu/libc.so.6",
+    "/lib64/ld-linux-x86-64.so.2"
+  ]
+}

@@ -10,13 +10,13 @@ function App() {
     api.get('repositories').then(response => {
       setRepositories(response.data);
     });
-  }, [repositories]);
+  }, []);
 
   async function handleAddRepository() {
     const response = await api.post('repositories', {
-      title: 'Desafio ReactJS',
-      url: "https://github.com/josepholiveira",
-      techs: ["React", "Node.js"]
+      title: 'Desafio ReactJS1',
+      url: "https://github.com/jos1epholiveira",
+      techs: ["React", "Node.js1"]
     })
 
     setRepositories([...repositories, response.data]);
